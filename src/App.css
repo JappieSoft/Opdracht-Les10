@@ -1,7 +1,13 @@
 main {
     margin: 24px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
 }
 
 .fruitButtons{
@@ -13,8 +19,6 @@ button {
     border: 2px solid #BC4C2A;
     color:  #BC4C2A;
     background-color: transparent;
-    Height: 55px;
-    Width: 55px;
     font-size: 2em;
     cursor: pointer;
     gap: 5px;
@@ -24,6 +28,11 @@ button:hover {
     background-color: #BC4C2A;
     color: white;
     transition: all .4s ease-in-out;
+}
+
+.calcButton{
+    Height: 55px;
+    Width: 55px;
 }
 
 article {
