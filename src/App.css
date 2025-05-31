@@ -1,0 +1,59 @@
+main {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+}
+
+.fruitButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: 2px solid #BC4C2A;
+    color:  #BC4C2A;
+    background-color: transparent;
+    font-size: 2em;
+    cursor: pointer;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #BC4C2A;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.calcButton{
+    Height: 55px;
+    Width: 55px;
+}
+
+article {
+    width: 200px;
+    position: relative;
+    text-align: center;
+    margin: 16px;
+}
+
+.formText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formItems{
+    display: flex;
+    justify-content: center;
+}
+
+ legend{
+     padding-top: 10px;
+ }
+
