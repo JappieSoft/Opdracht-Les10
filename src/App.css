@@ -22,6 +22,7 @@ button {
     font-size: 2em;
     cursor: pointer;
     gap: 5px;
+    margin-top: 10px;
 }
 
 button:hover {
@@ -42,8 +43,17 @@ article {
     margin: 16px;
 }
 
-fieldset {
+.formText{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: space-between;
 }
+
+.formItems{
+    display: flex;
+    justify-content: center;
+}
+
+ legend{
+     padding-top: 10px;
+ }
+

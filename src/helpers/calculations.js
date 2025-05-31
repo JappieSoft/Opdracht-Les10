@@ -1,12 +1,10 @@
 function calcIncrement(inputArray) {
-    let value = inputArray + 1 ;
-    return value;
+    return inputArray + 1;
 }
 
 
 export function calcDecrement(inputArray) {
-    let value = inputArray > 0 ? inputArray - 1 : 0;
-    return value;
+    return inputArray > 0 ? inputArray - 1 : 0;
 }
 
 
